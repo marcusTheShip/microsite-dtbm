@@ -1,0 +1,366 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800,700,600);
+@font-face {  font-family: "Open Sans";
+  font-weight: normal;
+  font-style: normal;
+}
+.os-normal {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+.os-semibold {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+.os-bold {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+.os-extrabold {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+}
+
+
+a,
+a:focus,
+a:active {
+  color: #ffffff;
+  text-decoration: none;
+  transition: all 0.5s;
+  outline: none;
+  font-weight:bold;
+}
+a:hover,
+a:focus:hover,
+a:active:hover {
+  color: #ffed00;
+text-decoration: none;
+
+}
+body {
+  background-color: #a60000;
+  /*background: url('../img/body-bg.png') no-repeat top center #000000;*/
+}
+.spacer {
+  height: 40px;
+  display: block;
+  clear: both;
+}
+.spacer-20 {
+  height: 20px;
+  display: block;
+  clear: both;
+}
+
+
+.lb {
+  display: block;
+  clear: both;
+}
+h1 {
+	font-size:24px;
+	line-height:26px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  color: #ffed00;
+  
+}
+h2 {
+	color: #FFFFFF;
+	font-family: "Open Sans",sans-serif;
+	font-size: 16px;
+  text-align:center; 
+  line-height: 24px;
+  margin-bottom:20px;
+}
+h3 {
+	color: #cccccc;
+	font-family: "Open Sans",sans-serif;
+	font-size: 28px;
+	font-weight: 800;
+	text-transform:uppercase;
+	text-align:center;
+}
+h4 {
+	color: #cccccc;
+	font-family: "Open Sans",sans-serif;
+	font-size: 17px;
+	font-weight: 600;
+		text-align:center;
+		margin-top:20px;
+
+}
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #cccccc;
+  text-align:center;
+  
+}
+
+.yellow-bold {
+	color: #ffed00;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+}
+
+.signoff-center {
+	color: #ffed00;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size:22px;
+  line-height:28px;
+  margin-bottom:40px;
+}
+
+.container {
+  max-width: 945px;
+}
+.container-custom {
+  max-width: 1100px;
+  margin: 0 auto;
+  margin-top:-10%;
+}
+.help-btn {
+  background: #222222;
+  color: #fff;
+  display: inline-block;
+  position: fixed;
+  top: 0;
+  right: 20px;
+  padding: 8px 15px;
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 15px;
+  -webkit-border-bottom-right-radius: 6px;
+  -webkit-border-bottom-left-radius: 6px;
+  -moz-border-radius-bottomright: 6px;
+  -moz-border-radius-bottomleft: 6px;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+.help-btn img {
+  vertical-align: inherit;
+}
+.help-btn:hover {
+  text-decoration: none;
+}
+.logo-link {
+  position: absolute;
+  width: 210px;
+  height: 350px;
+  top: 0;
+  left: 70px;
+}
+.container-fluid .sw-nav .nav-btn {
+	background: #ff7f00;
+	color: #fff;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	font-family: "Open Sans";
+	font-size: 20px;
+	margin-right: 5px;
+	padding: 13px 73px;
+	text-decoration: none;
+	font-weight:800;
+}
+.container-fluid .sw-nav .nav-btn.active {
+	background: none;
+	color: #FFF;
+	border: solid 2px #d7d7d7;
+	padding: 15px 75px;
+}
+
+.terms {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 200;
+  font-size: 12px;
+  line-height:18px;
+  text-align:left;
+}
+
+.terms-checkbox {
+  margin-bottom: 0px;
+}
+.terms-checkbox .form-control-feedback {
+  top: -10px !important;
+}
+.help-block {
+  color: #a94442;
+}
+.terms ol {
+  margin: 0;
+  color: #cccccc;
+  padding-left: 10px;
+  font-family: 'Open Sans', sans-serif;
+  text-align:left;
+}
+.terms ol li {
+  margin-bottom: 10px;
+}
+.terms ul.abc {
+  color: #ccc;
+  list-style-type: lower-latin;
+  margin: 10px 0;
+}
+.terms ul.abc li {
+  margin-bottom: 5px;
+}
+.footer {
+  background: #002239;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.footer ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 10px 0 0;
+  margin: 0;
+  line-height: 35px;
+}
+.footer ul li {
+  color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  display: inline-block;
+}
+.footer ul li a {
+	text-decoration: none;
+	color: #FFFFFF;
+
+}
+
+.footer .footer-links {
+  list-style-type: none;
+  text-align: center;
+  padding: 10px 0 0;
+  margin: 0;
+  line-height: 35px;
+color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  display: inline-block;
+
+}
+.footer .footer-links  a {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-weight:600;
+}
+
+.footer .footer-links  img {
+	display:block;
+	padding: 10px 0;
+	margin:0 auto;
+	width: 50%;
+    max-width: 300px;
+    height: auto;
+}
+
+
+
+
+@media (max-width: 768px) {
+  .container-fluid.hero {
+    min-height: auto;
+    background-image: none;
+  }
+  .container-fluid .sw-nav {
+    margin-top: 40px;
+  }
+  .container-fluid .sw-nav .nav-btn {
+    display: block;
+    margin: 10px 0 0 0;
+  }
+}
+
+
+
+@media (min-width: 992px) {
+h1 {
+	font-size:42px;
+	line-height:50px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  color: #ffed00;
+  
+}
+h2 {
+	color: #FFFFFF;
+	font-family: "Open Sans",sans-serif;
+	font-size: 24px;
+  text-align:center; 
+  line-height: 34px;
+  margin-bottom:20px;
+}
+h3 {
+	color: #cccccc;
+	font-family: "Open Sans",sans-serif;
+	font-size: 28px;
+	font-weight: 800;
+	text-transform:uppercase;
+	text-align:center;
+}
+h4 {
+	color: #cccccc;
+	font-family: "Open Sans",sans-serif;
+	font-size: 17px;
+	font-weight: 600;
+		text-align:center;
+		margin-top:20px;
+
+}
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #cccccc;
+  text-align:center;
+  
+}
+
+.yellow-bold {
+	color: #ffed00;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+}
+
+.signoff-center {
+	color: #ffed00;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size:22px;
+  line-height:28px;
+  margin-bottom:40px;
+}
+
+.yellow-bold {
+	color: #ffed00;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+}
+
+.signoff-center {
+	color: #ffed00;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size:22px;
+  line-height:28px;
+  margin-bottom:40px;
+}
+
+
+
+
+.title-center {
+    text-align:center;
+
+}
+
+
+}
+/* Localized */
