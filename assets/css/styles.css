@@ -365,10 +365,10 @@ color:yellow;
 .squared-text {
     border: 1px solid #fff;
     padding: 6px 14px;
-    font: 14px 'Open Sans';
+    font: 'Open Sans';
     font-weight: bold;
     color: #fff;
-    margin-bottom: 40px
+    margin-bottom: 40px;
 }
 
 .container-custom-2 {
@@ -380,12 +380,37 @@ color:yellow;
     line-height: 24px
 }
 
-@media (max-width: 480px) {
-    .btn-padding {
-        margin: 0;
-        margin-bottom: 10px;
-    }
+.text-margin {
+    margin-bottom: 10px;
 }
+.text-margin-thank {
+    margin-top:-40%;
+    margin-bottom: 10%;
+
+}
+
+.text-thank-you {
+    font: 94px 'Open Sans';
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    color: #FEED01;
+    margin-bottom: 10px;
+}
+.text-for-entry {
+    font: 53px 'Open Sans';
+    font-weight:
+    bolder;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    color: #FFF;
+}
+
+
+
+
 
 /*end of by Bernz*/
 
@@ -401,9 +426,89 @@ color:yellow;
     display: block;
     margin: 10px 0 0 0;
   }
+
+
+  btn-padding {
+      margin: 0;
+      margin-bottom: 10px;
+  }
+
+  .squared-text {
+      border: 1px solid #fff;
+      padding: 6px 14px;
+      font: 10px 'Open Sans';
+      font-weight: bold;
+      color: #fff;
+      margin-bottom: 500px;
+  }
+
+  .text-thank-you {
+      font: 55px 'Open Sans';
+      font-weight: bolder;
+      margin: 0;
+      padding: 0;
+      line-height: 1;
+      color: #FEED01;
+      margin-bottom: 10px;
+  }
+  .text-for-entry {
+      font: 30px 'Open Sans';
+      font-weight:
+      bolder;
+      margin: 0;
+      padding: 0;
+      line-height: 1;
+      color: #FFF;
+  }
+
+
+
+
+
+
 }
 
 
+@media (max-width: 480px) {
+    .btn-padding {
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .squared-text {
+        border: 1px solid #fff;
+        padding: 6px 14px;
+        font: 6px 'Open Sans';
+        font-weight: bold;
+        color: #fff;
+        margin-bottom: 40px;
+
+    }
+    .text-margin {
+        margin-bottom: 40%;
+        margin-top: 20%;
+    }
+    .text-thank-you {
+        font: 30px 'Open Sans';
+        font-weight: bolder;
+        margin: 0;
+        padding: 0;
+        line-height: 1;
+        color: #FEED01;
+        margin-bottom: 10px;
+    }
+    .text-for-entry {
+        font: 15px 'Open Sans';
+        font-weight:
+        bolder;
+        margin: 0;
+        padding: 0;
+        line-height: 1;
+        color: #FFF;
+    }
+
+
+}
 
 @media (min-width: 992px) {
 h1 {
